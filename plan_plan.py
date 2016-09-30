@@ -1,2 +1,13 @@
-plan here
-
+this program should
+- contain a list of tasks
+  -- each task should have
+     --- a start date
+     --- an end date
+     --- a priority
+     --- an urgency
+     --- whether the task is relevant after the due date or not
+     --- an estimated length
+         ---- if similar tasks have been started, their lengths should be used to estimate the length
+         ---- if similar tasks have not started, their lengths should be assumed to be 5 min per section
+     --- a number of sections
+         ---- e.g. pages for notes/reading, questions for problem sheets etc.
